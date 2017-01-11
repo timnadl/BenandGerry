@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ben and Gerry</title>
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:900|Raleway:300' rel='stylesheet'mtype='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+ 	<link rel="import" href="top_screens.html">
+	<link rel="icon" href="webicon.png">
+  </head>
+  
+  <body>
+	<div id="header"></div>
+	<div id="navigation"></div>
+	<div id="background_style" align="center">
+		
+	 	<div class="box" >
+			<img class="ice_image" src="img/chocolate-cherry-garcia-pint.png" style="width:20%;height:20%;float: left; margin: 55px 35px 45px 20px;">
+			<br><br>
+			<h1 align="center">Chocolate Cherry Garcia®</h1><br>
+			<h3 align="center">Chocolate Ice Cream with Cherries & Fudge Flakes</h3><br>
+			<h5 align="center">We gave this classic combination our most chocolatey spin,<br> so you get a Flavor Flip that tastes as un-flipping-believable as it sounds.<br> It’s also a Limited Batch, so get your Flips before they’re history!</h5><br>
+			<button class="submit" onclick="myFunction()">Nutrition info</button>
+			<button class="submit" onclick="findMeFunc()">Find me!</button>
+			<button class="submit" >Under construction..</button>
+			<br><br>
+		</div>
+		
+		<div align="left">
+			<input class="left_arrow" type="image" onclick="showNextFlavorRight()" src="img/transparent-arrow-hi.png" />
+			<input class="right_arrow" type="image" onclick="showNextFlavorLeft()" src="img/transparent-arrow-left-hi.png" />
+		</div>
+		
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+			  <div class="modal-content">
+				<span class="close">&times;</span>
+				<p>CREAM, LIQUID SUGAR (SUGAR, WATER), SKIM MILK, WATER, CHERRIES, SUGAR, COCOA (PROCESSED WITH ALKALI), COCONUT OIL, EGG YOLKS, FRUIT AND VEGETABLE CONCENTRATES (COLOR), COCOA POWDER, GUAR GUM, NATURAL FLAVOR, LEMON JUICE CONCENTRATE, CARRAGEENAN, MILK FAT, SOY LECITHIN, VANILLA EXTRACT.</p>
+			  </div>
+		</div>
+ 	</div>
+ 	<div id="footer"></div>
+	<script src="js/General_elements.js"></script>
+	<script src="js/modal_code.js"></script>	
+	<script src="js/arrow_func.js"></script>
+	
+	
+  </body>
+</html>
